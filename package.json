@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/codyasbin/nextjs_practice_V16.1.1/issues"
   },
-  "homepage": "https://github.com/codyasbin/nextjs_practice_V16.1.1#readme"
+  "homepage": "https://github.com/codyasbin/nextjs_practice_V16.1.1#readme",
+  "dependencies": {
+    "next": "^16.1.1",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  }
 }
