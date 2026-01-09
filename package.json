@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-    "scripts": {
+  "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -21,8 +21,11 @@
   },
   "homepage": "https://github.com/codyasbin/nextjs_practice_V16.1.1#readme",
   "dependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
     "next": "^16.1.1",
+    "postcss": "^8.5.6",
     "react": "^19.2.3",
-    "react-dom": "^19.2.3"
+    "react-dom": "^19.2.3",
+    "tailwindcss": "^4.1.18"
   }
 }
