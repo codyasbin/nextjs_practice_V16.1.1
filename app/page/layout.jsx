@@ -1,10 +1,16 @@
-export default function Layout({chidren}) {
+
+
+export default function Layout({children, parrallelRoute}) {
     return (
-        <div>
-            <h2>
-                This is the layout for the /page route
-            </h2>
-            {chidren}
+        <div className="flex border-4 border-green-500 gap-5">
+            <div>
+            {children}
+            </div>
+            <div>
+        {
+            parrallelRoute
+        }
+            </div>
         </div>
     );
 }
