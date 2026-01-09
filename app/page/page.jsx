@@ -1,4 +1,4 @@
-export  default async function Page() {
+export  default async function Page() {  //manually made this async function to simulate loading state
     let promise = new Promise((resolve) => {
         setTimeout(() => {
             resolve();
