@@ -4,7 +4,7 @@
 import { useEffect } from "react"
 
 export default function ServiceWorkerRegister() {
-  useEffect(() => {
+useEffect(() => {
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", () => {
         navigator.serviceWorker
@@ -17,3 +17,4 @@ export default function ServiceWorkerRegister() {
 
   return null
 }
+  
