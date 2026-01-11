@@ -3,7 +3,7 @@
 
 :root {
     --main-color: #3490dc;
-    --secondary-color: #ffed4a;
+    --secondary-color: oklch(70% 0.2 250);
     --danger-color: #e3342f;
 }
 
@@ -13,6 +13,9 @@
     --color-accent: #10b981;
 }
 
+.canvas {
+    @apply h-96  bg-(--secondary-color) rounded-lg shadow-lg;
+}
 /* h1{
     @apply text-3xl font-bold text-(--main-color);
 } */
