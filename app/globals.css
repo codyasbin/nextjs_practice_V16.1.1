@@ -7,6 +7,12 @@
     --danger-color: #e3342f;
 }
 
-h1{
-    @apply text-3xl font-bold ;
+@theme {
+    --color-primary: #1c3d5a;
+    --color-secondary: #fbbf24;
+    --color-accent: #10b981;
 }
+
+/* h1{
+    @apply text-3xl font-bold text-(--main-color);
+} */
