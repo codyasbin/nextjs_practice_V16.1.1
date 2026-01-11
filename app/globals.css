@@ -1,7 +1,12 @@
 @import "tailwindcss";
 
 
+:root {
+    --main-color: #3490dc;
+    --secondary-color: #ffed4a;
+    --danger-color: #e3342f;
+}
 
 h1{
-    @apply text-3xl font-bold text-red-300;
+    @apply text-3xl font-bold ;
 }
