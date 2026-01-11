@@ -1,20 +1,20 @@
 @import "tailwindcss";
 
-
-:root {
+/* Define CSS variables in global scope */
+:root {  
     --main-color: #3490dc;
     --secondary-color: oklch(70% 0.2 250);
     --danger-color: #e3342f;
 }
 
-@theme {
+@theme { /* Define custom colors using CSS variables for tailwind utilities */
     --color-primary: #1c3d5a;
     --color-secondary: #fbbf24;
     --color-accent: #10b981;
 }
 
 .canvas {
-    @apply h-96  bg-(--secondary-color) rounded-lg shadow-lg;
+    @apply h-96  bg-(--secondary-color) rounded-lg shadow-lg;  /*@apply can be used to apply utility classes of tailwind */
 }
 /* h1{
     @apply text-3xl font-bold text-(--main-color);
